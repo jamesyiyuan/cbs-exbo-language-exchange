@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CBS Language Exchange by ExBo</title>
+  <meta name="description" content="Volunteer language coaching between Columbia Business School MBA students.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">文A</span>
+      <span class="brand-text">CBS Language Exchange <span class="by">by ExBo</span></span>
+    </a>
+    <div id="account" class="account" hidden>
+      <span id="accountEmail" class="account-email"></span>
+      <button id="signOut" class="btn ghost small">Sign out</button>
+    </div>
+  </header>
+
+  <div id="demoBanner" class="demo-banner" hidden>
+    <span><strong>Demo mode:</strong> no backend is connected, so data stays in this browser and codes show on screen. Add your Supabase keys to <code>config.js</code> to go live.</span>
+    <button id="resetDemo" class="btn ghost small">Reset demo</button>
+  </div>
+
+  <main id="app" aria-live="polite"><p class="loading">Loading…</p></main>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <footer class="footer">
+    Volunteer-run by ExBo for Columbia Business School students. Partners schedule their sessions themselves.
+  </footer>
+</body>
+</html>
