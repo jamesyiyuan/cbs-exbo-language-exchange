@@ -5,8 +5,3 @@ window.EXBO_CONFIG = {
   SUPABASE_ANON_KEY: "",
   ALLOWED_DOMAIN: "gsb.columbia.edu",
 };
-window.EXBO_CONFIG = {
-  SUPABASE_URL: "https://abcdefghijkl.supabase.co",
-  SUPABASE_ANON_KEY: "eyJ...",
-  ALLOWED_DOMAIN: "gsb.columbia.edu",
-};
