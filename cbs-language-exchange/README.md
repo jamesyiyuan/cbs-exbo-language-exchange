@@ -3,7 +3,7 @@
 A volunteer language-coaching board for Columbia Business School students.
 
 - Sign in with a one-time code sent to an **@gsb.columbia.edu** email (no passwords)
-- For each of 15 languages, mark **I can coach** and/or **I want to learn**, so one person can be both a coach and a mentee
+- For each of 18 languages, mark **I can coach** and/or **I want to learn**, so one person can be both a coach and a mentee
 - Browse classmates, request a pairing ("Learn Japanese from Aiko" or "Coach Mateo in Spanish"), and accept or decline requests. Two people can coach each other.
 - After a pairing is accepted, both people can see each other's email and schedule sessions themselves
 

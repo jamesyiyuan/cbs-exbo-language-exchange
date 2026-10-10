@@ -13,8 +13,9 @@ const LANGUAGES = [
   "English", "Chinese (Mandarin)", "Chinese (Cantonese)", "Japanese", "Korean",
   "Vietnamese", "Italian", "German", "French", "Spanish",
   "Dutch", "Russian", "Portuguese", "Hindi", "Bahasa Indonesia",
+  "Hebrew", "Arabic", "Thai",
 ];
-const GREETINGS = ["Hello", "你好", "こんにちは", "안녕하세요", "Xin chào", "Ciao", "Hallo", "Bonjour", "Hola", "Привет", "Olá", "नमस्ते", "Halo"];
+const GREETINGS = ["Hello", "你好", "こんにちは", "안녕하세요", "Xin chào", "Ciao", "Hallo", "Bonjour", "Hola", "Привет", "Olá", "नमस्ते", "Halo", "שלום", "مرحبا", "สวัสดี"];
 
 // ---------- helpers ----------
 const $ = (sel, el = document) => el.querySelector(sel);
