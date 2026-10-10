@@ -10,10 +10,10 @@ const DOMAIN = (CFG.ALLOWED_DOMAIN || "gsb.columbia.edu").toLowerCase();
 
 // Keep in sync with the CHECK constraints in supabase/schema.sql.
 const LANGUAGES = [
-  "English", "Chinese (Mandarin)", "Chinese (Cantonese)", "Japanese", "Korean",
-  "Vietnamese", "Italian", "German", "French", "Spanish",
-  "Dutch", "Russian", "Portuguese", "Hindi", "Bahasa Indonesia",
-  "Hebrew", "Arabic", "Thai",
+  "Arabic", "Bahasa Indonesia", "Chinese (Cantonese)", "Chinese (Mandarin)", "Dutch",
+  "English", "French", "German", "Hebrew", "Hindi",
+  "Italian", "Japanese", "Korean", "Portuguese", "Russian",
+  "Spanish", "Thai", "Vietnamese",
 ];
 const GREETINGS = ["Hello", "你好", "こんにちは", "안녕하세요", "Xin chào", "Ciao", "Hallo", "Bonjour", "Hola", "Привет", "Olá", "नमस्ते", "Halo", "שלום", "مرحبا", "สวัสดี"];
 
