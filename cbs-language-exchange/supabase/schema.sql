@@ -39,12 +39,14 @@ create table if not exists public.profiles (
   coach_languages  text[] not null default '{}' check (coach_languages <@ array[
       'English','Chinese (Mandarin)','Chinese (Cantonese)','Japanese','Korean',
       'Vietnamese','Italian','German','French','Spanish',
-      'Dutch','Russian','Portuguese','Hindi','Bahasa Indonesia'
+      'Dutch','Russian','Portuguese','Hindi','Bahasa Indonesia',
+      'Hebrew','Arabic','Thai'
     ]::text[]),
   learn_languages  text[] not null default '{}' check (learn_languages <@ array[
       'English','Chinese (Mandarin)','Chinese (Cantonese)','Japanese','Korean',
       'Vietnamese','Italian','German','French','Spanish',
-      'Dutch','Russian','Portuguese','Hindi','Bahasa Indonesia'
+      'Dutch','Russian','Portuguese','Hindi','Bahasa Indonesia',
+      'Hebrew','Arabic','Thai'
     ]::text[]),
   bio              text check (char_length(bio) <= 500),
   created_at       timestamptz not null default now(),
