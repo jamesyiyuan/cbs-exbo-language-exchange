@@ -1,6 +1,9 @@
 # CBS Language Exchange by ExBo
 
 A volunteer language-coaching board for Columbia Business School students.
+The language exchange program has been running at Columbia Business School since January 2026, but we have not been matching between students and mentors effectively.
+
+Language Exchange by ExBo is designed by James, VP of Global Citizenship at ExBo, to accelerate the adoption of the language exchange program here at Columbia and promote inter-cultural dialogue.
 
 - Sign in with a one-time code sent to an **@gsb.columbia.edu** email (no passwords)
 - For each of 18 languages, mark **I can coach** and/or **I want to learn**, so one person can be both a coach and a mentee
