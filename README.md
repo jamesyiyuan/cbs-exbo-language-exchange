@@ -1,2 +1,3 @@
 # cbs-exbo-language-exchange
-Program run by the Global Citizenship team at CBS ExBo to facilitate inter-cultural exchange. Built by James Yuan
+The Global Citizenship team at Columbia Business School ExBo runs this program to facilitate intercultural exchange. Built by James Yuan
+Email: yyuan27@gsb.columbia.edu
