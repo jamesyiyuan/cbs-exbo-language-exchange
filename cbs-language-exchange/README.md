@@ -1,11 +1,8 @@
-# CBS Language Exchange by ExBo
+# Setup and deployment guide
 
-A volunteer language-coaching board for Columbia Business School students.
-The language exchange program has been running at Columbia Business School since January 2026, but we have not been matching between students and mentors effectively.
+This guide covers running the CBS Language Exchange locally and deploying your own instance. For project background, see the [main README](../README.md).
 
-Language Exchange by ExBo is designed by James Yuan, VP of Global Citizenship at ExBo, to accelerate the adoption of the language exchange program here at Columbia and promote intercultural dialogue.
-
-Email: yyuan27@gsb.columbia.edu
+Features:
 
 - Sign in with a one-time code sent to an **@gsb.columbia.edu** email (no passwords)
 - For each of 18 languages, mark **I can coach** and/or **I want to learn**, so one person can be both a coach and a mentee
@@ -16,7 +13,7 @@ It's a static site (`index.html`, `app.js`, `styles.css`, `config.js`) backed by
 
 ## Try it locally (demo mode)
 
-With `config.js` left empty, the site runs in **demo mode**. Data is stored in your browser, the one-time code appears on screen, and the directory comes pre-filled with sample classmates.
+With the two Supabase values in `config.js` set to empty strings, the site runs in **demo mode**. Data is stored in your browser, the one-time code appears on screen, and the directory comes pre-filled with sample classmates.
 
 ```bash
 cd cbs-language-exchange && python3 -m http.server 5173
